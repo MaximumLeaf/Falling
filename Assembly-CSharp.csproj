@@ -51,9 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\cameraMove.cs" />
-     <Compile Include="Assets\playerScript.cs" />
-     <Compile Include="Assets\Tiling.cs" />
+     <Compile Include="Assets\Scripts\cameraMove.cs" />
+     <Compile Include="Assets\Scripts\playerScript.cs" />
+     <Compile Include="Assets\Scripts\Tiling.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
