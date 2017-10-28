@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\cameraMove.cs" />
+     <Compile Include="Assets\Scripts\enemySpawner.cs" />
+     <Compile Include="Assets\Scripts\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\playerScript.cs" />
      <Compile Include="Assets\Scripts\Tiling.cs" />
  <Reference Include="UnityEngine.UI">
