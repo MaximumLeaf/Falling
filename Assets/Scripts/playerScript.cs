@@ -12,14 +12,18 @@ public class playerScript : MonoBehaviour {
 	private bool spaceDown = false;											//if umbrella is open or closed
 	public float umbDrag = 3;												//drag when umbrella is open
 	public float regDrag = 1;												//drag when umbralla is closed
+	//public double acceleration = 0.5;										//acceleration of player
 	public UnityEngine.UI.Text ussageText;									//text to display umbrella usage
 
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
 		rb2d.drag = regDrag;												//sets starting drag to that of the closed umbrella
+		//rb2d.gravityScale = 0;
 	}
 
 	void Update () {
+		//acceleration = acceleration * ((1 + Time.deltaTime) / 10);
+		//rb2d.gravityScale = rb2d.gravityScale + Time.deltaTime * ((float)acceleration/10); //accelerates player 
 		if (Input.GetButtonDown ("Jump") && passed <= maxPassed) {			//opens umbrella when space is pressed and passed is less than or equal to maxPassed
 			spaceDown = true;
 		} 

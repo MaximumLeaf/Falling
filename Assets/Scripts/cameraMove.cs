@@ -12,6 +12,6 @@ public class cameraMove : MonoBehaviour {
 	}
 
 	void Update () {
-		rb2d.position = new Vector2 (0, player.position.y - 2);  //makes it so the camera follows player on y axis, but not x axis
+		rb2d.position = new Vector2 (0, player.position.y - 3);  //makes it so the camera follows player on y axis, but not x axis
 	}
 }

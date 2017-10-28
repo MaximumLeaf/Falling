@@ -633,7 +633,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1552845910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2, z: -10}
+  m_LocalPosition: {x: 0, y: -3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -855,6 +855,7 @@ MonoBehaviour:
   enemy: {fileID: 1672240020696802, guid: 77c1a79c6e9b6924991bf00e41c6cb9c, type: 2}
   spawnRate: 2
   player: {fileID: 907027541}
+  cam: {fileID: 1552845916}
 --- !u!4 &1747862301
 Transform:
   m_ObjectHideFlags: 0

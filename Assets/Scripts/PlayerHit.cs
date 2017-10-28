@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class PlayerHit : MonoBehaviour {
 
-	private Rigidbody2D rben;
 	public UnityEngine.UI.Text loseText;
 
 	// Use this for initialization
 	void Start () {
-		rben = GetComponent<Rigidbody2D> ();
 	}
 	
 	// Update is called once per frame
