@@ -26,6 +26,7 @@ public class playerScript : MonoBehaviour {
 		//rb2d.gravityScale = rb2d.gravityScale + Time.deltaTime * ((float)acceleration/10); //accelerates player 
 		if (Input.GetButtonDown ("Jump") && passed <= maxPassed) {			//opens umbrella when space is pressed and passed is less than or equal to maxPassed
 			spaceDown = true;
+
 		} 
 		if (spaceDown) {													//When the umbrella is closed, 
 			rb2d.drag = umbDrag;											//the drag changes to the umbrella's open drag

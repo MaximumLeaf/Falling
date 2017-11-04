@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHit : MonoBehaviour {
 
 	public UnityEngine.UI.Text loseText;
+	private int playerHealth = 3;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +19,8 @@ public class PlayerHit : MonoBehaviour {
 
 		if (collision.CompareTag ("Enemy")) {
 			collision.gameObject.SetActive (false);
-			loseText.text = "You Lose!";
+			//loseText.text = "You Lose!";
+			playerHealth -= 1;
 		}
 	}
 }

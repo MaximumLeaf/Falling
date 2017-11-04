@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AnimatorPlayerScript.cs" />
      <Compile Include="Assets\Scripts\cameraMove.cs" />
      <Compile Include="Assets\Scripts\enemyDespawn.cs" />
      <Compile Include="Assets\Scripts\enemySpawner.cs" />
