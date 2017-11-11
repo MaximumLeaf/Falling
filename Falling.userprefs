@@ -1,14 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AnimatorPlayerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\healthSys.cs">
     <Files>
-      <File FileName="Assets\Scripts\Tiling.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\cameraMove.cs" Line="17" Column="2" />
-      <File FileName="Assets\Scripts\enemySpawner.cs" Line="39" Column="3" />
-      <File FileName="Assets\Scripts\enemyDespawn.cs" Line="22" Column="14" />
-      <File FileName="Assets\Scripts\playerScript.cs" Line="48" Column="55" />
-      <File FileName="Assets\Scripts\PlayerHit.cs" Line="25" Column="3" />
-      <File FileName="Assets\Scripts\AnimatorPlayerScript.cs" Line="34" Column="55" />
+      <File FileName="Assets\Scripts\Tiling.cs" Line="13" Column="20" />
+      <File FileName="Assets\Scripts\cameraMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemySpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemyDespawn.cs" Line="26" Column="4" />
+      <File FileName="Assets\Scripts\playerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerHit.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AnimatorPlayerScript.cs" Line="43" Column="4" />
+      <File FileName="Assets\Scripts\animatorHealth.cs" Line="8" Column="25" />
+      <File FileName="Assets\Scripts\healthSystem.cs" Line="4" Column="1" />
+      <File FileName="Assets\healthSys.cs" Line="34" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

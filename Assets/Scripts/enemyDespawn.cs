@@ -17,9 +17,12 @@ public class enemyDespawn : MonoBehaviour {
 	void Update () {
 		
 	}
-	void OnBecameInvisible(){											//only activates when backgrounds are out of frames
-		if (cam.transform.position.y < rb2d.transform.position.y) {
-			Destroy (gameObject);
+	void OnBecameInvisible(){
+		if (cam != null) {
+			//only activates when backgrounds are out of frames
+			if (cam.transform.position.y < rb2d.transform.position.y) {
+				Destroy (gameObject);
+			}
 		}
 	}
 }

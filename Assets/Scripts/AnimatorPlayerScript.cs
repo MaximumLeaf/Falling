@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AnimatorPlayerScript : MonoBehaviour {
 
@@ -8,6 +9,7 @@ public class AnimatorPlayerScript : MonoBehaviour {
 	private bool spaceDown = false;											//if umbrella is open or closed
 	private float passed = 0;												//to keep track of how long the player has used the umbrella
 	public float maxPassed = 3;												//maximum amount of time the player can keep the umbrella open
+	public Animator health2; 
 	private int Health = 3;
 
 	// Use this for initialization
@@ -31,13 +33,14 @@ public class AnimatorPlayerScript : MonoBehaviour {
 		}
 	}
 
-	private void OnTriggerEnter2D(Collider2D collision) {
-		if (collision.CompareTag ("Enemy")) {
-			collision.gameObject.SetActive (false);
+	private void OnTriggerEnter2D(Collider2D collision) {					//when the player collides
+		if (collision.CompareTag ("Enemy")) {								//with an enemy
+			collision.gameObject.SetActive (false);							//despawn enemy
 			//loseText.text = "You Lose!";
-			m_Animator.SetTrigger ("Hit");
+			m_Animator.SetTrigger ("Hit");									//animate player for being hit
 			Health -= 1;
-			m_Animator.SetInteger ("Health", Health);
+			Debug.Log (Health);
+			health2.SetInteger ("Health", Health);
 		}
 	}
 }
